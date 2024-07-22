@@ -1,7 +1,6 @@
 # Financial-Well-Being-Analysis
 
 ## Background
-
 The Consumer Financial Protection Bureau (CFPB) is a United States federal agency established in 2011 that aims to ensure that people are treated fairly by financial institutions such as banks, lenders, and credit reporting bureaus.
 
 According to the CFPB, the Financial Well-Being Survey captures measurements of individual and household characteristics that may influence adults’ financial well-being. The objective of the survey is to help policymakers, researchers, and educators understand financial challenges and design programs to improve financial literacy and stability. The survey was conducted alongside a brief questionnaire that provides a score from 0 to 100, with higher scores indicating greater financial well-being. The survey data used for this analysis was obtained from consumerfinance.gov in May 2024.
@@ -17,11 +16,15 @@ The purpose of this analysis is to answer the following questions:
 2) Can one's interconnectedness be used to predict one's financial well-being score?
    
 ## Analysis
+To conduct the analysis, I used the following machine learning models:
+* Linear Regression - assumes a linear relationship between the independent and dependent variables
+* Random Forest Regression - Combines multiple decision trees to prevent overfitting
+* Gradient Boosting Regression - an additive model, in each stage a regression tree is fit on the negative gradient of the given loss function
+* KNeighbors Regression - does not assume a linear relationship between the independent and dependent variables
 
 ## Findings & Recommendations
 
 ## Limitations
-
 The following limitations should be considered when reviewing this analysis:
 
 * Personal finance survey responses are highly subjective, as individuals' responses are influenced by personal perceptions, cultural norms, and social attitudes toward money. Feelings of embarrassment or shame about financial struggles may lead to misrepresentation ultimately affecting the accuracy of the data.
